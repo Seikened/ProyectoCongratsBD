@@ -347,3 +347,38 @@ VALUES
   ('Cancelada', '2021-10-17 23:59:59', 3, 3, 3),
   ('Propuesta', '2021-10-18 23:59:59', 4, 4, 4),
   ('Aceptada', '2021-10-19 23:59:59', 5, 5, 5);
+
+
+------ Datos para Descuento -------------------
+
+INSERT INTO descuento (nombre, descripcion, porcentaje)
+VALUES
+  ('Descuento 1', 'Descuento del 10% en la compra de alimentos y bebidas', 10.00),
+  ('Descuento 2', 'Descuento del 20% en la compra de hospedaje', 20.00),
+  ('Descuento 3', 'Descuento del 30% en la compra de bebidas alcohólicas', 30.00),
+  ('Descuento 4', 'Descuento del 40% en la compra de café y repostería', 40.00),
+  ('Descuento 5', 'Descuento del 50% en la compra de membresía', 50.00);
+
+
+SELECT * FROM descuento;
+
+
+
+
+
+
+------ Seccion de peligro solo para admin de la Base de Datos -------------------
+
+--- Hacer drop de cada tabla
+
+drop table geolocalizacion;
+drop table categoria;
+drop table usuario;
+drop table evento;
+drop table mesas;
+drop table sillas;
+drop table invitaciones;
+drop table provedor;
+drop table producto;
+drop table cotizacion;
+drop table descuento;
