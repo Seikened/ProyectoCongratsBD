@@ -364,6 +364,48 @@ SELECT * FROM descuento;
 
 
 
+-- Capítulo 5
+-- Consultas y Vistas
+
+-- 5.1 Consulta de todas Tablas (Hecho en cada creacion de tabla e insercion de datos)
+-- 5.2 Consulta de Tablas con la Cláusula WHERE
+-- 5.3 Consultar varios valores de un campo de una tabla
+-- 5.4 Consultar Registros Específicos de una Tabla
+-- 5.4 Crear y consultar Vistas
+
+
+
+-- Capítulo 6
+-- Algebra Relacional
+-- 6.1 Selección (SELECT)
+-- 6.2 Proyección
+-- 6.3 Unión (UNION)
+-- 6.4 Intersección (INTERSECT)
+-- 6.5 Diferencia (EXCEPT)
+-- 6.6 Producto Cartesiano
+
+
+
+-- Capítulo 7
+-- Algebra Relacional Extendida
+-- 7.1 Join (Unión)
+-- 7.2 Left Join (Unión Izquierda)
+-- 7.3 Right Join (Unión Derecha)
+-- 7.4 Full Join (Unión Completa)
+-- 7.5 Cross Join (Producto Cruzado)
+-- 7.6 Group By (Agrupar Por)
+-- 7.7 Having
+
+
+-- Capítulo 8
+-- Trigger
+
+-- Agrega los Triggers que consideres necesarios para tu Proyecto
+
+
+
+
+
 
 
 
